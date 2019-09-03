@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Estructura html con reglas de estilo</title>
+<head>
+<div>
+      <style>
+         section p{
+            border:2px #fabada;
+           }
+      </style>
+      <style>
+        section >p {
+            color:gold;
+            ]}
+       </style>
+       <style>
+        section p +p 
+          color:red;
+       </style>
+</head>
+<body>
+      <p>Las primeras pruebas asi</p>
+      <p>Vamos ahí</p>
+      
+      <p>Paso a paso</p>
+</body>
+</html>
